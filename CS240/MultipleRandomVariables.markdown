@@ -54,7 +54,7 @@ Firsst the events {Y=y} for y element of \Y partition omega,
 so for a fixed event x {X = x} and {Y = y} for y element of \Y partition {X = x}
 
 
-![alt tab](https://github.com/amsully/notes/tree/master/CS240/resources/MarginalPMF.png)
+![alt tab](https://github.com/amsully/blob/notes/tree/master/CS240/resources/MarginalPMF.png)
 
 Conditional PMF of X given Y: Denoted by P(X | Y)
 
@@ -118,7 +118,15 @@ We can 144 coins and each has a biased representation
 
 Form of the PMF under independence:
 
-![alt tab](https://github.com/amsully/notes/tree/master/CS240/resources/PMFUnderIndependence.png)
+![alt tab](https://github.com/amsully/notes/blob/tree/master/CS240/resources/PMFUnderIndependence.png)
+
+## Example Modeling Hand Written Digit Images
+
+Question: How can we usw our joint mode?
+
+Answer: Use Bayes Rule
+
+Slide in Many Random Variables
 
 
 
@@ -128,59 +136,6 @@ Form of the PMF under independence:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 
 
 
