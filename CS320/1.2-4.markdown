@@ -1,0 +1,117 @@
+# 1.2 The Software engineering challenges
+
+**Software Engineering**: is defined as the Systematic approach to the development, operation, maintenance, and retirement of software.
+
+## 1.2.1 Scale
+
+- What works on small systems typically does not work on larger systems
+- Size of projects
+	- Small < 10 KLOC	
+	- Medium < 100 KLOC
+	- large < 1000000 LOC
+	- very large > large
+		- Windows XP is 40,000 KLOC, Python is 200 KLOC
+
+## 1.2.2 Quality and Productivity
+
+- 3 Factors: Cost, Schedule, Quality
+- Software Quality
+	- Functionality - meet stated and implied needs
+	- Reliability	- specified level of performance met
+	- Usability 	- capability to be used, understood, learned
+	- Efficiency	- appropriate performance relative to the amount of resources used
+	- Maintainability	- modified for purposes of making corrections, improvements, adaptation
+	- Portability	- adaptable to specified environments
+- Typically 1K lines equals one error
+
+## 1.2.3 Consistency and Repeatability
+
+?
+
+#1.3 The Software Engineering Approach
+
+Figure 1.5: The Iron Triangle
+
+Quality and Productivity: 
+
+Technology -> People -> Processes ->
+
+### 1.3.1 Phased Development Process
+
+- Break down into processes allow lower cost of dev. and proper checking of quality and progress.
+
+#### Requirements Analysis
+
+- define problem - **software requirements specification document**
+- 2 Major parts
+	1. Problem Understanding (analysis)
+	2. Requirement Specification
+		- Must: specify all functional and performance requirements; the formats of inputs and outputs; and all design constraints that exist due to **politcal, economic, environmental, and security reasons**		- user manual specifying major UI is frequently added
+
+#### Software Design
+	
+- Design takes us towards how to satisfy needs
+
+- Design results in 3 outputs	
+	- architecture design
+		- looks at sys. as a combination
+	- high level design
+		- modules that should be built for developing the system
+	- detailed design
+		- internal logic of each module specified
+
+#### Coding
+
+- Focus on simplicity and clarity
+
+#### Testing
+
+- Starting point is **unit testing**
+	- different modules are tested individually
+- **integration testing** - testing interconnection of modules
+- **system testing**
+- **acceptance testing** client accepts 
+
+### 1.3.2 Managing the Process
+
+- **product metrics** - quantify characteristics of the product being developed
+- **process metrics** - quantify characteristics of the process being used to develop the software
+	- Productivity, cost, resource req., effectiveness of QA measures, effect of dev techniques and tools
+
+### 1.4 Summary
+
+1. Problem domain: industrial strength software
+2. Software comprised programs, associated data, and documentation
+3. Software engineering is the discipline that aims to provide methods and procedures for systematically developing ISS
+	- scacle, quality and productivity (Q&P), consistency, and change
+4. Fundamental approach of SE is to achieve the objectives to separate the dev process from the products..
+	- SE focuses on process
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
