@@ -80,8 +80,50 @@ Figure 3.6 DFD For A Restaurant pg 102
 
 ### Basic Concepts and Notation
 
+Goes into basics of class definitions, object instances, attributes of each objects
+
+Superclass will have subclasses 1 ... n 
 
 
+Figure 3.9 page 106 - 'Model of a drug store with UML'
+
+### Performing Analysis
+
+So how do we actully define it?
+
+- Identifying objects and classes
+	- objects during analysis is an encapsulation of attributes on which it provides some exclusive services
+	- Represents something in the problm space
+	- if something does not contain a real world entity is does not need to be defined as an object.
+- Identifying Structures
+	- generalization - specialization and whole-part relationships are identified
+	- Look objects labeled as 'generalization' and determine if other classes can be considered specializations
+- Identifying attributes
+	- simple process of defining what an object needs then adding it to an object. If all objects need it consider adding it to a superclass
+- Identifying associations
+	- 'Company' employs 'Person'
+	- Can be 1:1, 1:Many - others like M:M are not common
+- Defining Services
+
+Here is where we are defining classes
+
+Figure 3.10 Page 110 
+
+## 3.2.4 Prototyping
+
+**Software Prototype:**: partial implementation of a system whose purpose it to learn something about the problem being solved or the solution approach
+
+- throwaway and evolutionary apprroaches
+- throwaway prototypes are more suited
+
+- When prototype:
+	- Divide project into
+	- 'Well Understood, Poorly Understood, Unknown'
+	- Poorly understood requirements should be in prototype
+
+Prototyping can be vertical or horizontal (layers)
+
+Prototypes should be 10% of dev cost
 
 
 
