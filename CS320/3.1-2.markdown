@@ -1,0 +1,121 @@
+# 3.1  Software Requirements
+
+IEEE defines requirement as:
+
+1. A condition of capability needed by a user to solve a problem or achieve an objective
+2. A condition or a capability that must be met or possessed by a system ... to satisfy a contract
+
+## 3.1.1 Need for SRS
+
+- SRS established the basis for agreement between client, supplier on what product will do
+- SRS provides a reference for validation of the final product
+
+54% of all detected errors were after coding and 45% of these errors actually originated in requirements...
+
+- A high quality SRS is a prerequisite to high quality software
+
+Math about how costly it is to catch errors later pg 83
+
+- high quality SRS reduced cost
+
+## 3.1.2 Requirement Process
+
+Figure 3.1 Page 86 - Requirement Process
+
+# 3.2  Problem Analysis
+
+## 3.2.1 Informal Approach
+
+- Analysts go from the mind of clients to SRS
+
+# 3.2.2 Data Flow Modeling
+
+## Data Flow Diagrams and Data Dictionary
+
+- DFD shows the flow of data through a system.
+
+Figure 3.2 DFD of a system that pays workers page 92
+
+- All external files are shown as a labeled straight line.
+- Need for multiple data flows by a process represented with a \*
+- Not a flow chart: flow chart show flow of control
+
+Suggestions for constructing a data flow graph:
+
+- Work your way consistently from the inputs to the outputs, or vice versa -- 
+	- If you get stuck reverse directions
+	- start with high level data flow graph with few major tranforms decribing the entire transformation from the inputs to outputs and then refine each transformation from with more detailed transformations
+	- Never try to show control logic. If you think in terms of loops and iterations you need to stop and try again
+	- Make use of * and + operations and show suffiecient detail in the data flow graph
+	- Try drawing alternate data flow graphs before settling on one
+
+DFD Notation
+
+- '+' : sequences, repetition
+- '|' means on or the other
+- '\*' means one or more occurence
+
+Common Errors
+
+- Unlabeled data flows
+- Missing data flows; information required by a process is not available
+- Extraneous data flows;  some information is not being used in the process
+- Consistency maintaining during refinement
+- Missing processes
+- Contains some control information
+
+### Structured Analysis Method
+
+- By understanding the states of data we can determine the functions
+- Start with physical system - replaced by logical processs
+- Any bubble that does not transform data is deleted
+- Drawing DFD:
+	- Start top down
+		- Context diagram  - major inputs outputs
+		- refined into description of different parts
+
+Figure 3.6 DFD For A Restaurant pg 102
+
+## 3.2.3 Object-Oriented Modeling
+
+### Basic Concepts and Notation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
