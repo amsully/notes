@@ -1,0 +1,7 @@
+# 3.3 Requirement Specification
+
+- Considerations like design constraints, errors that must be generally considered cannot be modeled thus are in the Software Requirement Specifications
+
+- 
+
+
